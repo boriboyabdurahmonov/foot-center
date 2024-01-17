@@ -1,0 +1,577 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1200px;
+
+}
+
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    background-color: transparent;
+}
+
+.paragraf {
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+    transition: .25s ease;
+    border-radius: 8px;
+
+
+    width: 350px;
+    height: 40px;
+    margin: 4px 0;
+
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: .15px;
+    border: none;
+    outline: none;
+
+    box-shadow:
+        inset 2px 2px 4px #d1d9e6,
+        inset -2px -2px 4px white;
+}
+
+.email {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+    transition: .25s ease;
+    border-radius: 8px;
+
+
+    width: 350px;
+    height: 40px;
+    margin: 4px 0;
+
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: .15px;
+    border: none;
+    outline: none;
+
+    box-shadow:
+        inset 2px 2px 4px #d1d9e6,
+        inset -2px -2px 4px white;
+}
+
+.password {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+    transition: .25s ease;
+    border-radius: 8px;
+
+
+    width: 350px;
+    height: 40px;
+    margin: 4px 0;
+
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: .15px;
+    border: none;
+    outline: none;
+
+    box-shadow:
+        inset 2px 2px 4px #d1d9e6,
+        inset -2px -2px 4px white;
+}
+
+.name:focus {
+    box-shadow:
+        inset 4px 4px 4px #d1d9e6,
+        inset -4px -4px 4px white;
+}
+
+.email:focus {
+    box-shadow:
+        inset 4px 4px 4px #d1d9e6,
+        inset -4px -4px 4px white;
+}
+
+.password:focus {
+    box-shadow:
+        inset 4px 4px 4px #d1d9e6,
+        inset -4px -4px 4px white;
+}
+
+
+.sign_up {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.sign {
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2;
+}
+
+.creat_acc {
+    font-size: 55px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 580px) {
+    .creat_acc {
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width:460px) {
+    .creat_acc {
+        font-size: 44px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .paragraf {
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        opacity: 0.3;
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+
+    .name {
+        width: 300px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 300px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 300px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+
+    .sign {
+        text-decoration: none;
+        padding: 11px 26px;
+        border-radius: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .creat_acc {
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (max-width:422px) {
+    .creat_acc {
+        font-size: 42px;
+        text-align: center;
+        align-items: center;
+    }
+
+    /* .logo {
+        width: 45px;
+        display: flex;
+
+    } */
+
+    .paragraf {
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        opacity: 0.3;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+
+    .name {
+        width: 280px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 280px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 280px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+
+    .sign {
+        text-decoration: none;
+        padding: 10px 23px;
+        border-radius: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 2;
+    }
+
+    .logo {
+        gap: 25px;
+    }
+
+    .img {
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width:365px) {
+    .creat_acc {
+        font-size: 38px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .paragraf {
+        padding-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        opacity: 0.3;
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+    }
+
+
+    .name {
+        width: 250px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 250px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 250px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 13px;
+        letter-spacing: .15px;
+    }
+
+
+    .sign {
+        text-decoration: none;
+        padding: 10px 23px;
+        border-radius: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 2;
+    }
+
+    .logo {
+        gap: 25px;
+    }
+
+    .img {
+        width: 45px;
+    }
+}
+
+@media only screen and (max-width: 334px) {
+    .creat_acc {
+        font-size: 35px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img {
+        width: 43px;
+    }
+
+    .paragraf {
+        padding-top: 15px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        opacity: 0.3;
+        display: flex;
+        justify-content: center;
+        font-size: 12px;
+    }
+
+    .name {
+        width: 230px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 230px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 230px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .sign {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 2;
+    }
+}
+
+@media only screen and (max-width: 308px) {
+    .creat_acc {
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .img {
+        width: 40px;
+    }
+
+    .paragraf {
+        padding-top: 15px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .name {
+        width: 210px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 210px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 210px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 11px;
+        letter-spacing: .15px;
+    }
+
+    .sign {
+        padding: 8px 18px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 265px) {
+    .creat_acc {
+        font-size: 28px;
+    }
+
+    .img {
+        width: 36px;
+    }
+
+    .paragraf {
+        padding-top: 15px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .name {
+        width: 200px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 200px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 200px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .sign {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .sign_up {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 245px) {
+    .creat_acc {
+        font-size: 25px;
+    }
+
+    .img {
+        width: 34px;
+    }
+
+    .paragraf {
+        padding-top: 15px;
+        margin-top: 30px;
+        font-size: 9px;
+    }
+
+    .name {
+        width: 180px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .email {
+        width: 180px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .password {
+        width: 180px;
+        height: 40px;
+        margin: 4px 0;
+        padding-left: 25px;
+        font-size: 10px;
+        letter-spacing: .15px;
+    }
+
+    .sign {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+
+    .sign_up {
+        margin-top: 50px;
+    }
+}
